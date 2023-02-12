@@ -12,11 +12,12 @@
         <title>Login</title>
     </head>
     <body>
+        <form action="login" method="post">
         <h1>Login</h1><br>
         Username: <input type="text" name="username" value="${username}" placeholder="Username"><br>
         Password: <input type="text" name="password" value="${password}" placeholder="Password"><br>
-        <input type="Submit" value="Log in">
-        
+        <input type="submit" value="Log in">
+        </form>
         <p>${message}</p>
     </body>
 </html>

@@ -58,7 +58,7 @@ public class LoginServlet extends HttpServlet {
                 response.sendRedirect("home");
             } else {
                 // checks if the user input are correct or not
-                request.setAttribute("message", "invalid inputs,");
+                request.setAttribute("message", "invalid inputs");
                 // sets the inputs the same from previous input
                 request.setAttribute("username", username);
                 request.setAttribute("password", password);
